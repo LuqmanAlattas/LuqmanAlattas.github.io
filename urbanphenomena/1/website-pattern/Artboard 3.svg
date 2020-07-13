@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="Layer_1"
+   data-name="Layer 1"
+   viewBox="0 0 141.81001 229.35001"
+   version="1.1"
+   sodipodi:docname="Artboard 3.svg"
+   width="141.81001"
+   height="229.35001"
+   inkscape:version="0.92.2 5c3e80d, 2017-08-06">
+  <metadata
+     id="metadata32">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Artboard 3</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1910"
+     inkscape:window-height="961"
+     id="namedview30"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="1.0187784"
+     inkscape:cx="71.630004"
+     inkscape:cy="113.83501"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="Layer_1" />
+  <defs
+     id="defs7">
+    <style
+       id="style2">.cls-1,.cls-4{fill:none;}.cls-2{fill:#414042;}.cls-3{clip-path:url(#clip-path);}.cls-4{stroke:#333132;stroke-miterlimit:10;stroke-width:0.5px;}</style>
+    <clipPath
+       id="clip-path">
+      <rect
+         class="cls-1"
+         x="-3.3299999"
+         y="0.31"
+         width="141.8"
+         height="229.35001"
+         id="rect4"
+         style="fill:none" />
+    </clipPath>
+  </defs>
+  <title
+     id="title9">Artboard 3</title>
+  <rect
+     class="cls-2"
+     x="-141.8"
+     y="-229.35001"
+     width="141.8"
+     height="229.35001"
+     transform="scale(-1)"
+     id="rect11"
+     style="fill:#414042" />
+  <g
+     class="cls-3"
+     clip-path="url(#clip-path)"
+     id="g27"
+     transform="translate(3.3400031,-0.30999389)">
+    <polygon
+       class="cls-4"
+       points="136.78,369.91 16.68,282.66 62.55,141.48 211,141.48 256.87,282.66 "
+       id="polygon13"
+       style="fill:none;stroke:#333132;stroke-width:0.5px;stroke-miterlimit:10" />
+    <polygon
+       class="cls-4"
+       points="17.3,0.31 91.52,54.23 63.17,141.48 -28.57,141.48 -56.92,54.23 "
+       id="polygon15"
+       style="fill:none;stroke:#333132;stroke-width:0.5px;stroke-miterlimit:10" />
+    <polygon
+       class="cls-4"
+       points="137.39,87.56 91.52,54.23 109.04,0.31 165.74,0.31 183.26,54.23 "
+       id="polygon17"
+       style="fill:none;stroke:#333132;stroke-width:0.5px;stroke-miterlimit:10" />
+    <polygon
+       class="cls-4"
+       points="137.39,87.56 165.74,108.16 154.91,141.48 119.87,141.48 109.04,108.16 "
+       id="polygon19"
+       style="fill:none;stroke:#333132;stroke-width:0.5px;stroke-miterlimit:10" />
+    <polygon
+       class="cls-4"
+       points="91.52,120.89 74,108.16 80.69,87.56 102.35,87.56 109.04,108.16 "
+       id="polygon21"
+       style="fill:none;stroke:#333132;stroke-width:0.5px;stroke-miterlimit:10" />
+    <polygon
+       class="cls-4"
+       points="109.04,66.96 119.87,74.83 115.73,87.56 102.35,87.56 98.21,74.83 "
+       id="polygon23"
+       style="fill:none;stroke:#333132;stroke-width:0.5px;stroke-miterlimit:10" />
+    <polygon
+       class="cls-4"
+       points="119.87,100.29 113.18,95.43 115.73,87.56 124.01,87.56 126.56,95.43 "
+       id="polygon25"
+       style="fill:none;stroke:#333132;stroke-width:0.5px;stroke-miterlimit:10" />
+  </g>
+</svg>

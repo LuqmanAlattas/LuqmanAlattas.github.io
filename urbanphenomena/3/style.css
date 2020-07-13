@@ -1,0 +1,1069 @@
+html,
+body {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    font-family: 'Open Sans Condensed', Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+html,
+body,
+nav,
+ul,
+li,
+div,
+span,
+div,
+h1,
+p,
+img,
+svg {
+    box-sizing: border-box;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+
+#barba-wrapper,
+.barba-container {
+    width: 100%;
+    height: 100%;
+}
+
+
+.logo {
+    height: 65px;
+    position: fixed;
+    top: 50px;
+    left: 50px;
+    opacity: 1;
+}
+
+
+
+
+.navigation {
+    position: fixed;
+    top: 120px;
+    left: 65px;
+    overflow: hidden;
+    z-index: 19;
+}
+
+.sections-list {
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+}
+
+.sections-list li {
+    width: 120px;
+    height: 26px;
+    margin: 13px 0;
+    border-right: 1px black solid;
+    color: rgb(10, 10, 10);
+    cursor: pointer;
+    text-align: right;
+}
+
+.sections-list li > a,
+.social-icons {
+    display: block;
+    position: relative;
+    top: 50%;
+    padding-right: 15px;
+    transform: translate(101%, -50%);
+    transition: transform 0.3s ease-out;
+}
+
+.sections-list li > a,
+.social-icons > a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.sections-list li.on {
+    border-right-color: red;
+}
+
+.sections-list li.on > a {
+    transform: translate(0, -50%);
+}
+
+.sections-list li:hover > a,
+.sections-list li:hover > .social-icons {
+    transform: translate(0, -50%);
+}
+
+a.facebook:hover {
+    color: #3b5998;
+}
+
+a.twitter:hover {
+    color: #1da1f2;
+}
+
+a.instagram:hover {
+    color: #c32aa3;
+}
+
+a.linkedin:hover {
+    color: #007bb5;
+}
+
+
+
+
+.nav-burger.active ~ .navigation .sections-list li > a,
+.nav-burger.active ~ .navigation .sections-list li > .social-icons {
+    transform: translate(0, -50%);
+}
+
+.nav-burger.active ~ .navigation .sections-list li:nth-child(2) > a {
+    transition-delay: 0.2s;
+}
+
+.nav-burger.active ~ .navigation .sections-list li:nth-child(3) > a {
+    transition-delay: 0.4s;
+}
+
+.nav-burger.active ~ .navigation .sections-list li:nth-child(4) > a {
+    transition-delay: 0.6s;
+}
+
+.nav-burger.active ~ .navigation .sections-list li:nth-child(5) > a {
+    transition-delay: 0.8s;
+}
+
+.nav-burger.active ~ .navigation .sections-list li:nth-child(6) > a {
+    transition-delay: 1s;
+}
+
+.nav-burger.active ~ .navigation .sections-list li:nth-child(7) > a {
+    transition-delay: 1.2s;
+}
+
+.nav-burger.active ~ .navigation .sections-list li:nth-child(8) > a {
+    transition-delay: 1.4s;
+}
+
+.nav-burger.active ~ .navigation .sections-list li:nth-child(9) > .social-icons {
+    transition-delay: 1.6s;
+}
+
+
+
+
+
+
+.nav-burger {
+    position: fixed;
+    top: 50px;
+    right: 50px;
+    width: 26px;
+    height: 26px;
+    overflow-y: hidden;
+    cursor: pointer;
+}
+
+.nav-burger .bar {
+    display: block;
+    width: 80%;
+    height: 2px;
+    margin: 3.5px 0;
+    background-color: black;
+    transform: translateX(10%);
+    transition: transform 0.3s ease-out, opacity 0.3s ease-out, margin 0.3s;
+}
+
+.nav-burger .bar:nth-child(even) {
+    background-color: red;
+}
+
+.nav-burger:hover .bar {
+    transform: translateX(0);
+}
+
+.nav-burger:hover .bar:nth-child(even) {
+    transform: translateX(20%);
+}
+
+.nav-burger.active .bar:first-child,
+.nav-burger.active .bar:last-child {
+    opacity: 0;
+}
+
+.nav-burger.active .bar:nth-child(2) {
+    margin: 0;
+    transform: translate(10%) rotate(-45deg);
+}
+
+.nav-burger.active .bar:nth-child(3) {
+    margin: -2px 0 0 0;
+    /* to be on top of its upper bar */
+    transform: translate(10%) rotate(45deg);
+}
+
+
+.logo,
+.nav-burger {
+    filter: drop-shadow(0px 0px 0.7px white);
+    z-index: 20;
+}
+
+
+/*############################## home styles #######################################*/
+
+.content-wrapper {
+    position: relative;
+    top: 0;
+    left: 190px;
+    height: 100%;
+    width: calc(100% - 190px);
+    padding: 0px 100px 0px 10px;
+}
+
+.featured-projects-wrap {
+    width: 100%;
+    height: 100%;
+    padding-top: 148px;
+}
+
+.featured-projects-wrap > h1 {
+    margin: 0 0 5px 0;
+    line-height: 1;
+}
+
+.featured-projects {
+    width: 100%;
+    height: 100%;
+}
+
+.project-wrap {
+    display: flex;
+    width: 100%;
+    height: 80%;
+    text-decoration: none;
+    flex-wrap: nowrap;
+    border-bottom: 1px rgba(125, 125, 125, 0.5) solid;
+    cursor: pointer;
+}
+
+.project-media-wrap {
+    position: relative;
+    height: 100%;
+    flex: 1 0 70%;
+    overflow: hidden;
+}
+
+.project-media-wrap > .overlay,
+.project-media-wrap > .cover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 125%;
+    background-color: white;
+    transform: skewX(-7deg) translateX(75%);
+}
+
+.project-media-wrap > .cover {
+    width: 100%;
+    transform: translateX(-100%);
+}
+
+/*
+.project-wrap:nth-child(odd) > .project-media-wrap > .overlay {
+transform: skewX(-7deg) translateX(-5%);
+}
+
+.project-wrap:nth-child(even) > .project-media-wrap > .overlay {
+transform: skewX(7deg) translateX(-5%);
+}
+*/
+
+.featured-image-wrap {
+    width: 100%;
+    height: 100%;
+    transition: transform 0.3s ease-out;
+}
+
+.featured-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.project-text-wrap {
+    position: relative;
+    height: 100%;
+    flex: 1 0 30%;
+}
+
+.project-text-wrap h2 {
+    margin: 0;
+    padding: 20px 0 0 20px;
+    line-height: 1;
+    font-weight: 300;
+}
+
+.project-header {
+    position: absolute;
+    left: 20px;
+    bottom: 40px;
+    opacity: 0.5;
+    transform: translateY(5px);
+    transition: opacity 0.8s, transform 0.4s ease-out;
+}
+
+.project-header h4 {
+    margin: 0;
+    font-weight: 300;
+}
+
+.project-header h3 {
+    margin: 0;
+}
+
+.project-desc {
+    display: block;
+    padding: 50px 0 0 20px;
+    max-width: 330px;
+}
+
+.project-desc p,
+.project-desc span {
+    opacity: 0;
+    transform: translateX(10px);
+    transition: opacity 0.8s, transform 0.4s ease-out;
+}
+
+.project-desc span {
+    display: block;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.project-wrap:hover .featured-image-wrap {
+    transform: scale(1.05);
+}
+
+.project-wrap:hover .project-desc p,
+.project-wrap:hover .project-desc span {
+    opacity: 1;
+    transform: translateX(0px);
+}
+
+.project-wrap:hover .project-desc span {
+    transition-delay: 0.15s;
+}
+
+.project-wrap:hover .project-header {
+    opacity: 1;
+    transform: translateY(0px);
+}
+
+/*############################## end of home styles #######################################*/
+
+/*###################### philosophy, services, connect & project info styles ###################*/
+
+.background-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.skewed-backgrounds {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 1);
+    overflow: hidden;
+}
+
+.left-skewed-background {
+    transform: translateX(-50%) skewX(-7deg);
+    z-index: 4;
+}
+
+.right-skewed-background {
+    transform: translateX(5%) skewX(-7deg);
+    z-index: 5;
+    /*    transition: transform 0.7s;*/
+}
+
+.right-skewed-background.reveal {
+    transform: translateX(-50%) skewX(-7deg);
+}
+
+.right-side {
+    display: flex;
+
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 55%;
+    height: 100%;
+    padding-top: 148px;
+}
+
+
+.right-side img {
+    height: 80%;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+.left-side {
+    position: absolute;
+    left: 250px;
+    top: 0;
+    width: 25%;
+    height: 100%;
+    z-index: 10;
+}
+
+.text-upper-box {
+    position: fixed;
+    top: 0;
+    left: 250px;
+    background-color: white;
+    width: 25%;
+    height: 148px;
+    z-index: 11;
+}
+
+.text-lower-box {
+    position: fixed;
+    bottom: 0;
+    left: 250px;
+    background-color: white;
+    width: 25%;
+    height: 16%;
+    z-index: 11;
+}
+
+.left-side .text-wrapper {
+    position: relative;
+    top: 130px;
+    width: 100%;
+    /* shift text up above text lower box */
+    padding-bottom: 170px;
+    font-size: 14px;
+    line-height: 2;
+    letter-spacing: 1px;
+    overflow: hidden;
+    opacity: 0;
+}
+
+.text {
+    display: block;
+}
+
+.header {
+    line-height: 1.3;
+}
+
+/*################## end of philosophy, services, connect & project info styles ##################*/
+
+/*############################## connect styles ##############################*/
+
+.contact .right-side {
+    padding: 0;
+}
+
+.right-side .map {
+    width: 100%;
+    height: 100%;
+}
+
+/*############################## end of connect styles ##############################*/
+
+/*############################## projects styles ##############################*/
+
+.projects-container {
+    height: 100%;
+    width: 100%;
+}
+
+.projects-wrapper {
+    position: relative;
+    left: 200px;
+    height: 100%;
+    width: calc(100% - 200px);
+    overflow-x: hidden;
+    cursor: move;
+    cursor: grab;
+    cursor: -moz-grab;
+    cursor: -webkit-grab;
+}
+
+.projects-wrapper:active {
+    cursor: grabbing;
+    cursor: -moz-grabbing;
+    cursor: -webkit-grabbing;
+}
+
+.projects-list {
+    position: absolute;
+    top: 150px;
+    width: 100%;
+    height: 20vw;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    white-space: nowrap;
+    transition: transform 0.5s ease-out;
+}
+
+.project-item {
+    position: relative;
+    display: inline-block;
+    width: 35%;
+    height: 100%;
+    overflow: hidden;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+.project-item.shown {
+    opacity: 1;
+}
+
+.project-item > .cover {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100%;
+    background-color: white;
+    transform: translateX(-110%) skewX(-7deg);
+}
+
+.project-item > a {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: black;
+}
+
+.thumbnail {
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+}
+
+.content {
+    height: 20%;
+    font-size: 14px;
+    vertical-align: baseline;
+}
+
+
+.content h2,
+.content p {
+    margin: 0;
+    line-height: 1;
+    padding-left: 30px;
+}
+
+.progress-nav {
+    position: absolute;
+    left: 50%;
+    bottom: 15%;
+    height: 3px;
+    width: 30%;
+    transform: translateX(-50%);
+    background-color: rgba(220, 220, 220, 1);
+}
+
+.progress-nav span {
+    display: block;
+    height: 100%;
+    width: 50px;
+    background-color: rgba(185, 185, 185, 1);
+    transition: background-color 0.7s, box-shadow 0.7s;
+    cursor: pointer;
+}
+
+.progress-nav span:hover {
+    background-color: rgba(150, 150, 150, 1);
+    box-shadow: 0px 0px 5px 0px rgba(185, 185, 185, 1);
+
+}
+
+.progress-nav span::before {
+    content: '';
+    display: block;
+    padding: 5px;
+}
+
+/*############################## end of projects styles ##############################*/
+
+/*############################## project info styles ##############################*/
+
+.right-side .project-imgs-wrap {
+    position: relative;
+    height: 80%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.right-side .project-imgs-wrap img {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: opacity 0.5s ease-out;
+    pointer-events: none;
+    cursor: zoom-in;
+}
+
+.project-imgs-wrap img.shown {
+    /*    transform: translateX(0%);*/
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.project-info .right-side.modal {
+    width: 100%;
+    padding-top: 80px;
+    z-index: 20;
+    background-color: rgba(0,0,0, 0.7);
+}
+
+
+.project-info .right-side.modal img {
+    height: 100%;
+    object-fit: contain;
+    cursor: zoom-out;
+}
+
+/*---------- Controls -----------*/
+
+.prev-button-wrap,
+.next-button-wrap {
+    display: none;
+}
+
+.images-nav {
+    display: flex;
+    position: fixed;
+    bottom: 7vh;
+    left: 50%;
+    height: 3px;
+    width: 50%;
+    justify-content: center;
+    transform: translateX(-50%);
+    z-index: 20;
+}
+
+.images-nav .nav-item {
+    position: relative;
+    width: 45px;
+    height: 100%;
+    margin: 0 5px;
+}
+
+.nav-item .bar {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(220, 220, 220, 1);
+    transition: background-color .5s;
+    cursor: pointer;
+}
+
+.nav-item .bar:hover {
+    background-color: rgba(150, 150, 150, 1);
+}
+
+.nav-item .bar.selected {
+    background-color: rgba(150, 150, 150, 1);
+}
+
+.nav-item .bar::after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+}
+
+.nav-item img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 250%;
+    border-radius: 5px;
+    transform: translate(-25%, -115%);
+    opacity: 0;
+    transition: opacity .5s;
+}
+
+.nav-item .bar:hover + img {
+    opacity: 1;
+}
+
+
+/*############################## end of project info styles ##############################*/
+
+/*############################## responsive styles #######################################*/
+
+@media (max-width: 1160px) {
+
+    /*==================== general =====================*/
+    .navigation {
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(255, 255, 255, 0.9);
+        opacity: 0;
+        transition: opacity 0.5s;
+        pointer-events: none;
+    }
+
+    .nav-burger.active ~ .navigation {
+        opacity: 1;
+        pointer-events: auto;
+    }
+
+    .sections-list {
+        display: flex;
+        flex-direction: row-reverse;
+        flex-wrap: wrap;
+        align-content: flex-start;
+        height: 100%;
+        margin: 0;
+        padding: 100px 50px 0 0px;
+        overflow-y: auto;
+    }
+
+    .sections-list li {
+        width: 50%;
+        height: 25px;
+        overflow: hidden;
+    }
+
+    .sections-list li > a,
+    .social-icons {
+        transition: transform 0.6s 0s ease-out !important;
+    }
+
+    .social-icons > a {
+        padding: 0 5px;
+    }
+
+    a.facebook {
+        color: #3b5998;
+    }
+
+    a.twitter {
+        color: #1da1f2;
+    }
+
+    a.instagram {
+        color: #c32aa3;
+    }
+
+    a.linkedin {
+        color: #007bb5;
+    }
+
+    /*==================== home =====================*/
+    .content-wrapper {
+        left: 0px;
+        height: 100%;
+        width: 100%;
+        padding: 0px 50px 0px 50px;
+    }
+
+    /*==================== philosophy, services, connect & project info =====================*/
+    .left-side,
+    .text-upper-box,
+    .text-lower-box {
+        width: 37%;
+        left: 91px;
+    }
+
+    /*==================== projects =====================*/
+    .projects-wrapper {
+        display: flex;
+        left: 0;
+        width: 100%;
+        align-items: center;
+    }
+
+    .projects-list {
+        position: static;
+    }
+
+}
+
+@media (max-width: 1023px) {
+
+    /*==================== general =====================*/
+    html,
+    body {
+        overflow-y: auto;
+    }
+
+    .logo {
+        height: 70px;
+        top: 20px;
+        left: 20px;
+    }
+
+    .nav-burger {
+        top: 45px;
+        right: 45px;
+    }
+
+    /*==================== home =====================*/
+    .content-wrapper {
+        left: 0px;
+        width: 100%;
+        padding: 0px;
+        overflow-x: hidden;
+    }
+
+    .featured-projects-wrap {
+        padding: 5px;
+    }
+
+    .featured-projects-wrap > h1 {
+        padding-left: 20px
+    }
+
+    .project-wrap {
+        display: block;
+        position: relative;
+        border-bottom: none;
+        height: 100%;
+    }
+
+    .project-media-wrap {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+    }
+
+    .project-media-wrap > .overlay {
+        display: none;
+    }
+
+    .project-media-wrap > .cover {
+        transform: translateY(110%) skewY(4deg);
+    }
+
+    .featured-image-wrap {
+        width: 100%;
+        height: 100%;
+        transition: transform 0.3s ease-out;
+    }
+
+    .featured-image {
+        width: 100%;
+        height: 100%;
+    }
+
+    .project-text-wrap {
+        position: relative;
+        height: 100%;
+    }
+
+    .project-text-wrap h2 {
+        position: absolute;
+        bottom: 90px;
+        color: white;
+    }
+
+    .project-header {
+        bottom: 40px;
+        color: white;
+        opacity: 1;
+        transform: translateY(0px);
+    }
+
+    .project-header h4 {
+        margin: 0;
+        font-weight: 300;
+    }
+
+    .project-header h3 {
+        margin: 0;
+    }
+
+    .project-desc {
+        display: none;
+    }
+
+    .project-wrap:hover .featured-image-wrap {
+        transform: none;
+    }
+
+    /*==================== philosophy, services, connect & project info =====================*/
+    .skewed-backgrounds {
+        position: absolute;
+        top: auto;
+        bottom: 0;
+    }
+
+    .left-skewed-background {
+        transform: translateY(50%) skewY(4deg);
+    }
+
+    .right-skewed-background {
+        transform: translateY(-23%) skewY(4deg);
+    }
+
+    .right-skewed-background.reveal {
+        transform: translateY(50%) skewY(4deg);
+    }
+
+    .right-side {
+        width: 100%;
+        height: 60%;
+        padding-top: 0;
+    }
+
+    .right-side img {
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .right-side .project-imgs-wrap {
+        height: 100%;
+    }
+
+    .left-side {
+        left: 0;
+        top: 55%;
+        width: 100%;
+        height: auto;
+        background-color: rgba(255, 255, 255, 1);
+        padding: 0 25px;
+        transform: skewY(7deg);
+    }
+
+    .text-upper-box,
+    .text-lower-box {
+        display: none;
+    }
+
+    .left-side .text-wrapper {
+        top: 0;
+        padding: 0;
+        transform: skewY(-7deg);
+    }
+
+    .left-side .text-content {
+        top: 0;
+        line-height: 1.5;
+        letter-spacing: 1.5px;
+        padding-bottom: 0;
+
+    }
+
+    .right-shape {
+        display: none;
+    }
+
+    /*==================== projects =====================*/
+    .projects-wrapper {
+        left: 0;
+        height: 100%;
+        width: 100%;
+    }
+
+    .projects-list {
+        height: 100%;
+        width: 100%;
+    }
+
+    .project-item {
+        position: relative;
+        display: block;
+        width: 100%;
+        height: 60vw;
+    }
+
+    .project-item .cover {
+        transform: translateY(110%) skewY(4deg);
+    }
+
+    .project-item a {
+        height: 100%;
+    }
+
+    .thumbnail {
+        height: 100%;
+    }
+
+    .content {
+        position: absolute;
+        top: 50%;
+        color: white;
+
+        font-size: 3.8vw;
+        transform: translateY(-50%);
+    }
+
+    .progress-nav {
+        display: none;
+    }
+
+
+    /*==================== project info =====================*/
+    .project-info .right-side.modal {
+        height: 100%;
+        padding-top: 0px;
+    }
+
+    /*----- Controls -----*/
+    .prev-button-wrap,
+    .next-button-wrap {
+        display: block;
+        position: absolute;
+        top: 50%;
+        width: 50px;
+        height: 50px;
+        background-color: rgba(255, 255, 255, 0.5);
+        transform: translateY(-50%);
+    }
+
+    .next-button-wrap {
+        right: 0;
+    }
+
+    .prev-button-wrap::after,
+    .next-button-wrap::after {
+        content: '';
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        border-bottom: 3px rgba(100, 100, 100, 1) solid;
+        border-right: 3px rgba(100, 100, 100, 1) solid;
+        padding: 20%;
+        transform: translate(-75%, -50%) rotate(-45deg);
+    }
+
+    .prev-button-wrap::after {
+        transform: translate(-25%, -50%) rotate(135deg);
+    }
+
+    .images-nav {
+        display: none;
+    }
+}
