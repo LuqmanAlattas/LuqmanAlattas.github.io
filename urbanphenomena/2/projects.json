@@ -1,0 +1,206 @@
+ {
+     "rabwah": {
+         "name" : "Al-Rabwah Apartment Building",
+         "logo" : "",
+         "location" : {
+             "latitude" : "21.594611",
+             "longitude" : "39.179056",
+             "url" : "https://goo.gl/maps/aZmMLrZvsWL2"
+         },
+         "description" : "Name:<br><b>Al-Rabwah Apartment Building</b><br> Location:<br><b>Al-Rabwah District</b><br> Year:<br><b>Under Construction</b><br>Area:<br><b>638 M<sup>2</sup></b><br><br> A new prototypical young executives and expats residential building that provides two apartment sizes and layouts for rent including on-site parking accommodating visitors and tenants.<br><br> This archetypal design could be repeated on several sites in the future. This entails developing an Architectural Identity that breaks away from the conventional and commercial models currently built throughout the city. The extra building space has been utilized for services due to limited parking space that define the number of possible units. The building is to be efficient in cost and maintenance; minimal and neat in detail and design.",
+         "images" : ["projects/architecture/al-rabwah-apartments/images/trabzoni-1.jpg", "projects/architecture/al-rabwah-apartments/images/trabzoni-2.jpg", "projects/architecture/al-rabwah-apartments/images/trabzoni-3.jpg", "projects/architecture/al-rabwah-apartments/images/trabzoni-4.jpg", "projects/architecture/al-rabwah-apartments/images/trabzoni-5.jpg"]
+     },
+     "wesal" : {
+         "name" : "Al-Wesal Units",
+         "logo" : "",
+         "location" : {
+             "latitude" : "21.636083",
+             "longitude" : "39.139306",
+             "url" : "https://goo.gl/maps/MuhuhzSCrVm"
+         },
+         "description" : "Name:<br><b>Al-Wesal Units</b><br> Location:<br><b>Al-Naim District, Jeddah</b><br> Total Built Area:<br><b>495 M<sup>2</sup>/Unit</b><br> Lot Area:<br><b>352 M<sup>2</sup>/Lot</b><br> Year:<br><b>2012</b><br><br><p>Designed for the modern Arab family in the Gulf area, where Traditional craft meets contemporary prototypical units in a residential duality; a mixture of the past traditional Arabian home with the upcoming globalized view of luxurious living accommodations. Due to recent socio-economic trends, young families have widened their horizons through media or travel on their living preference. This prototype aims to break the rigid grip imposed by the real estate market on these young families.<br><br>The living room and kitchen overlook a small semi-enclosed courtyard, inspired from the traditional Arab house. However, its connection with the exterior garden creates an extension of the interior and constitutes the center of the house providing indirect sunlight without compromising privacy. A perfectly fit set of dualities of past meeting present, traditional meeting modern day and spacious yet private. Al-Wesal Semi Detached Units are indeed a picture-perfect fit for today’s Arab young families.<br><br>The design of the developmental project dictated the use of efficient and economical building materials and construction methods. The layout of spaces groups all utilities near to the middle part of the both units, creating a sort of core, where vertical circulation and WC facilities are located. This significantly saves on the amount of ducts and pipes used for utilities and frees up more space for the main functions of the residence, providing residents with comfortable and spacious spaces for living.",
+         "images" : ["projects/architecture/al-wesal-semi-detached-units/images/wesal-1.jpg", "projects/architecture/al-wesal-semi-detached-units/images/wesal-2.jpg", "projects/architecture/al-wesal-semi-detached-units/images/wesal-3.jpg", "projects/architecture/al-wesal-semi-detached-units/images/wesal-4.jpg", "projects/architecture/al-wesal-semi-detached-units/images/wesal-5.jpg"]
+     },
+     "spsJeddah" : {
+         "name" : "SPS Jeddah Office Building",
+         "logo" : "",
+         "location" : {
+             "latitude" : "21.595590",
+             "longitude" : "39.161359",
+             "url" : "https://goo.gl/maps/7K3n7vFqU2k"
+         },
+         "description" : "Name: <br><b>Samir Photographic Supplies Office Building</b><br>Location:<br><b>Jeddah</b><br>",
+         "images" : ["projects/architecture/sps-jeddah-office-building/images/spsj-1.jpg", "projects/architecture/sps-jeddah-office-building/images/spsj-2.jpg", "projects/architecture/sps-jeddah-office-building/images/spsj-3.jpg"]
+     },
+     "spsRiyadh" : {
+         "name" : "SPS Riyadh Office Building",
+         "logo" : "",
+         "location" : {
+             "latitude" : "24.693466",
+             "longitude" : "46.697090",
+             "url" : "https://goo.gl/maps/jBjMaHpxsE72"
+         },
+         "description" : "Name: <br><b>Samir Photographic Supplies Office Building</b><br> Location:<br><b>Riyadh</b><br>",
+         "images" : ["projects/architecture/sps-riyadh-office-building/images/spsr-1.jpg", "projects/architecture/sps-riyadh-office-building/images/spsr-2.jpg"]
+     },
+     "mdn" : {
+         "name" : "Madinah Road Office Park",
+         "logo" : "",
+         "location" : "",
+         "description" : "Name:<br><b>Madinah Road Office Park</b><br>Location:<br><b>Jeddah</b><br>",
+         "images" : ["imgs/madinahofficepark/2.jpg", "imgs/madinahofficepark/3.jpg", "imgs/madinahofficepark/4.jpg", "imgs/madinahofficepark/5.jpg"]
+     },
+     "khaldiyyah" : {
+         "name" : "Khaldeyyah Business Units",
+         "logo" : "",
+         "location" : {
+             "latitude" : "21.549456",
+             "longitude" : "39.140410",
+             "url" : "https://goo.gl/maps/d1GA3oV6o5y"
+         },
+         "description" : "Name:<br><b>Khaldeyyah Business Units</b><br> Location:<br><b>Jeddah</b><br>",
+         "images" : ["imgs/khaldeyyahbusinessunits/2.png", "imgs/khaldeyyahbusinessunits/3.png", "imgs/khaldeyyahbusinessunits/4.jpg"]
+     },
+     "wakame" : {
+         "name" : "Wakame Sushi Lounge",
+         "logo" : "",
+         "location" : {
+             "latitude" : "21.577073",
+             "longitude" : "39.127519",
+             "url" : "https://goo.gl/maps/ezGcbYrWKBM2"
+         },
+         "description" : "Name:<br><b>Wakame Sushi Lounge</b><br> Location:<br><b>Al-Zahra District</b><br> Area:<br><b>175 M<sup>2</sup></b><br> Year:<br><b>2013</b><br><br> Intuitive in expression, Wakame has become the prime destination for Sushi lovers in only two years, especially after Sushi gained a lot of recognition in becoming a staple dinning out cuisine for locals.<br><br> The main inspiration came from nature, fishing villages and rice paddies of Japan. Wakame (seaweed in Japanese) wants to take customers through a journey that appeal to the senses with a balanced dose of Japan, a juxtaposition of the Japanese dining experience against locale taste and sensibilities. The main materials used are Bamboo, Stone, Birch, Linen and Rattan all of whom are organic to harmonize the overall experience. The design invokes an international environment with a tone of cultured modernity, flexibility, ample use of quality natural materials, excellent lighting, clarity and functionality.",
+         "images" : ["projects/interior/wakame-sushi-lounge/images/wakame-1.jpg", "projects/interior/wakame-sushi-lounge/images/wakame-2.jpg", "projects/interior/wakame-sushi-lounge/images/wakame-3.jpg", "projects/interior/wakame-sushi-lounge/images/wakame-4.jpg"]
+     },
+     "muhaidib" : {
+         "name" : "Al-Muhaidib Showroom",
+         "logo" : "",
+         "location" : {
+             "latitude" : "21.463978",
+             "longitude" : "39.252201",
+             "url" : "https://goo.gl/maps/cjQMiPpyeFy"
+         },
+         "description" : "",
+         "images" : ["projects/interior/muhaidib-technical-supplies-showroom/images/Mahadib-1.jpg", "projects/interior/muhaidib-technical-supplies-showroom/images/Mahadib-2.jpg", "projects/interior/muhaidib-technical-supplies-showroom/images/Mahadib-3.jpg", "projects/interior/muhaidib-technical-supplies-showroom/images/Mahadib-4.jpg", "projects/interior/muhaidib-technical-supplies-showroom/images/Mahadib-5.jpg"]
+     },
+     "hamza" : {
+         "name" : "Hamza Showroom",
+         "logo" : "",
+         "location" : {
+             "latitude" : "21.586527",
+             "longitude" : "39.143499",
+             "url" : "https://goo.gl/maps/2BEhpoVsKQJ2"
+         },
+         "description" : "Name:<br><b>Hamza Showroom</b><br> Location:<br><b>Al-Salamah District, Jeddah</b><br> Area:<br><b>70 M<sup>2</sup></b><br> Year:<br><b>2009</b><br><br> An innovative men’s clothing store “connecting” men to Jeddah clothing.<br><br> The interior architecture is required to give the store a distinct personality and a strong marketing presence. The distribution of spaces is in a distinctive manner to reflect simplicity and address the targeted audience. The creative atmosphere highlights the products and services provided. The design focuses on simple modernity while still serving the store’s marketing policy.",
+         "images" : ["projects/interior/hamza-showroom/images/hamza-1.jpg", "projects/interior/hamza-showroom/images/hamza-2.jpg", "projects/interior/hamza-showroom/images/hamza-3.jpg", "projects/interior/hamza-showroom/images/hamza-4.jpg", "projects/interior/hamza-showroom/images/hamza-5.jpg"]
+     },
+     "meraki" : {
+         "name" : "Meraki Artisan Coffee",
+         "logo" : "",
+         "location" : {
+             "latitude" : "21.569096",
+             "longitude" : "39.163440",
+             "url" : "https://goo.gl/maps/gPFrjdnCbS52"
+         },
+         "description" : "Name:<br><b>Meraki Artisan Coffee</b><br> Location:<br><strong>Al-Rawdah, Jeddah</strong><br> Area:<br><b>113 M <sup>2</sup></b><br> Year:<br><b>2015</b><br><br> A sophisticated coffee house that celebrates the roasting aspect of coffee making in a space that promotes experimentation, learning and sharing.<br><br> The interior design captures the essence of what Roasters ‘Lounge is offering, freshly roasted single origin coffee beans. While using natural materials, mostly recycled wood that reflect the variety and colors of coffee, and lighting in a modern functional space that balances comfort, simplicity and professionalism. The visual identity is expressive and appropriate to the place and context.",
+         "images" : ["projects/interior/meraki-coffee-lounge/images/meraki-1.jpg", "projects/interior/meraki-coffee-lounge/images/meraki-2.jpg", "projects/interior/meraki-coffee-lounge/images/meraki-3.jpg", "projects/interior/meraki-coffee-lounge/images/meraki-4.jpg", "projects/interior/meraki-coffee-lounge/images/meraki-5.jpg"]
+     },
+     "tarhati" : {
+         "name" : "Tarhati Showroom",
+         "logo" : "",
+         "location" : {
+             "latitude" : "21.627587",
+             "longitude" : "39.110830",
+             "url" : "https://goo.gl/maps/wN1YULh7EwP2"
+         },
+         "description" : "Name:<br><b>Tarhati Showroom</b><br> Location:<br><b>Red Sea Mall, Jeddah</b><br> Area:<br><b>23 M <sup>2</sup></b><br> Year:<br><b>2008</b><br><br> A store celebrating head scarves (tarha’s) in function and material. The materials are fashioned of light weight, medium weight, and heavy weight fabrics, transparent, semi-transparent and opaque. The function is to conceal, cover, and veil body parts.<br><br> The concept of the design takes into consideration the location, surrounding atmosphere, the origins of scarves (Islam) and the nature of it. Keeping the design sleek, simple and appealing in a contemporary design with keeping in mind the Islamic culture and using the Islamic patterns in an abstract manner. The design is based on creating visual and tactile experience within the shop where the variety of textures and materials all enhance the experience. A design that pushes the customer through the store making sure they don’t stay in one place. Combining and merging the rich history of Islamic architecture and the simplicity of the contemporary architecture.",
+         "images" : ["imgs/tarhati/tarhati2.jpg"]
+     },
+     "baytoti" : {
+         "name" : "Baytoti Chinese Restaurant",
+         "logo" : "",
+         "location" : {
+             "latitude" : "21.645103",
+             "longitude" : "39.128744",
+             "url" : "https://goo.gl/maps/mL33ZdjAyP72"
+         },
+         "description" : "Name:<br><b>Baytoti Chinese Restaurant</b><br> Location:<br><b>Al-Mohamadyah District</b><br> Area:<br><b>250 M<sup>2</sup></b><br> Year:<br><b>2012</b><br><br> Baytoti, specializing in casual dining and good quality food, is a restaurant with a distinctive adoptive design theme that is visually clear with a cultural identity. Chinese food catered to Saudi’s taste is Baytoti’s ambition.<br><br> The concept is a Pagoda built in three stages: base, shaft and crown. The design invokes a global environment that is simple, friendly and cozy with an oriental atmosphere. The restaurant contains an open kitchen with the unique qualities of flexibility, natural materials, clarity and functionality. The design also includes Chinese lanterns, Chinese window lattice while materials used are tiles, wood, paper, paint, wallpaper and fabric. The finishes on the furniture and Chinese cuisine creates a Chinese home goodness. A natural harmony exists between the interior design and the overall experience.",
+         "images" : ["projects/interior/baytoti-chinese-restauraunt/images/baytoti-1.jpg", "projects/interior/baytoti-chinese-restauraunt/images/baytoti-2.jpg", "projects/interior/baytoti-chinese-restauraunt/images/baytoti-3.jpg", "projects/interior/baytoti-chinese-restauraunt/images/baytoti-4.jpg"]
+     },
+     "hafiz" : {
+         "name" : "Hafiz Woodworks Exhibit",
+         "logo" : "",
+         "location" : "",
+         "description" : "Name:<br><b>Hafiz Woodworks Exhibit</b><br> Location:<br><b>Jeddah</b>",
+         "images" : ["projects/micro-architecture/hafiz-woodworks-exhibit/images/hafiz-1.jpg", "projects/micro-architecture/hafiz-woodworks-exhibit/images/hafiz-2.jpg", "projects/micro-architecture/hafiz-woodworks-exhibit/images/hafiz-3.jpg", "projects/micro-architecture/hafiz-woodworks-exhibit/images/hafiz-4.jpg"]
+     },
+     "mts" : {
+         "name" : "Al-Muhaideb Exhibit",
+         "logo" : "",
+         "location" : "",
+         "description" : "Name:<br><b>Al-Muhaideb Technical Supplies Exhibit</b><br> Location:<br><b>Jeddah</b><br> Area:<br><b>82 M<sup>2</sup></b><br> Year:<br><b>2006</b><br><br> Giving a friendly, up scaled and simple look to a typical industrial warehouse was the ultimate goal for the Muhaideb project.<br><br> The building consists of an interior exhibition, storefront entrance and reception area with a showroom for the company. The outlet is located on the ground floor of the Muhaideb building covering an estimated (100) square meters.",
+         "images" : ["projects/micro-architecture/mts-exhibition-stand/images/mts-stand-1.jpg", "projects/micro-architecture/mts-exhibition-stand/images/mts-stand-2.jpg", "projects/micro-architecture/mts-exhibition-stand/images/mts-stand-3.jpg"]
+     },
+     "mhs" : {
+         "name" : "MHS Architectural Office",
+         "logo" : "",
+         "location" : "",
+         "description" : "Name:<br><b>Mohammed Hussain Shukri Architectural Office</b><br> Location:<br><b>Jeddah</b><br>",
+         "images" : ["projects/graphic-identities/mhs-architectural-office/images/mhs-1.jpg", "projects/graphic-identities/mhs-architectural-office/images/mhs-2.jpg", "projects/graphic-identities/mhs-architectural-office/images/mhs-3.jpg", "projects/graphic-identities/mhs-architectural-office/images/mhs-4.jpg", "projects/graphic-identities/mhs-architectural-office/images/mhs-5.jpg"]
+     },
+     "bqCI" : {
+         "name" : "BQ CI",
+         "logo" : "",
+         "location" : {
+             "latitude" : "26.411389",
+             "longitude" : "50.170205",
+             "url" : "https://goo.gl/maps/eSi14MQUKCE2"
+         },
+         "description" : "Name:<br><b>Business Quarter Corporate Identity</b><br> Year:<br><b>2014</b><br><br> Location:<br><strong>Al-Khalidiyah Al-Janubiyah, Dammam</strong><br> The Business Quarter (BQ) is an elegant office park, built with the sole purpose of providing the ideal secure business environment.<br><br> The brand is the voice of the corporation. It visually expresses the essence and soul of the establishment and serves as an identity placement. The primary colors for the logo are Fresh blue representing the business aspect of the project and Grey representing the professional environment it helps foster. The logo identity reflects the gated aspect of the business park in a welcoming frame like typography, highlighting their slogan framed for business.",
+         "images" : ["projects/graphic-identities/bq-ci-office-park/images/bq-ci-1-min.jpg", "projects/graphic-identities/bq-ci-office-park/images/bq-ci-2-min.jpg", "projects/graphic-identities/bq-ci-office-park/images/bq-ci-3-min.jpg", "projects/graphic-identities/bq-ci-office-park/images/bq-ci-4-min.jpg", "projects/graphic-identities/bq-ci-office-park/images/bq-ci-5-min.jpg"]
+     },
+     "merakiCI" : {
+         "name" : "Meraki Artisan Coffee CI",
+         "logo" : "",
+         "location" : {
+             "latitude" : "21.569096",
+             "longitude" : "39.163440",
+             "url" : "https://goo.gl/maps/gPFrjdnCbS52"
+         },
+         "description" : "Name:<br><b>Meraki Artisan Coffee Corporate Identity</b><br> Location:<br><strong>Al-Rawdah, Jeddah</strong><br> Year:<br><b>2015</b><br><br> A sophisticated coffee house that celebrates the roasting aspect of coffee making in a space that promotes experimentation, learning and sharing.<br><br> Meraki is a Greek word meaning placing one’s love, soul and creativity into something. The visual identity expresses the concept by interlocking circles that creates a coffee bean shape.",
+         "images" : ["projects/graphic-identities/meraki-cI-coffee-roasters/images/meraki-ci-1-min.jpg", "projects/graphic-identities/meraki-cI-coffee-roasters/images/meraki-ci-2-min.jpg", "projects/graphic-identities/meraki-cI-coffee-roasters/images/meraki-ci-3-min.jpg", "projects/graphic-identities/meraki-cI-coffee-roasters/images/meraki-ci-4-min.jpg", "projects/graphic-identities/meraki-cI-coffee-roasters/images/meraki-ci-5-min.jpg"]
+     },
+     "bq" : {
+         "name" : "BQ Office Park",
+         "logo" : "",
+         "location" : {
+             "latitude" : "26.411389",
+             "longitude" : "50.170205",
+             "url" : "https://goo.gl/maps/eSi14MQUKCE2"
+         },
+         "description" : "Name:<br><b>Business Quarter Office Park</b><br> Location:<br><strong>Al-Khalidiyah Al-Janubiyah, Dammam</strong><br> Area:<br><strong>103,000 M<sup>2</sup></strong><br> Year:<br><strong>2014</strong><br><br> The Business Quarter (BQ) is an office park, built with the sole purpose of providing the ideal secure business environment.<br><br> To ensure privacy, the business office complex is gated. The amenities include a business center, restaurant, multipurpose space, mosque and retail shops. The complex is located in a remote location, appealing to western expats, with a private entrance and parking for each office. The office is extremely flexible, expanding horizontally to occupy the whole building block. The building landscape includes both private and communal sections. The way finding signs are easily located once needed because it relies on efficient visual cues yet blend into the interior design and are unapparent when not pursued.",
+         "images" : ["projects/wayfinding/bq-office-park/images/bq-1-min.jpg", "projects/wayfinding/bq-office-park/images/bq-2-min.jpg", "projects/wayfinding/bq-office-park/images/bq-3-min.jpg", "projects/wayfinding/bq-office-park/images/bq-4-min.jpg", "projects/wayfinding/bq-office-park/images/bq-5-min.jpg"]
+     },
+     "taSchools" : {
+         "name" : "TA Schools",
+         "logo" : "",
+         "location" : {
+             "latitude" : "24.745559",
+             "longitude" : "46.652537",
+             "url" : "https://goo.gl/maps/1rR8ukY3L422"
+         },
+         "description" : "Name:<br><b>Al-Tarbiyah Al-Ahliyyah Schools</b><br> Location:<br><b>AL-Nakhil District, Riyadh</b><br>",
+         "images" : ["projects/wayfinding/ta-schools/images/ta-school-1.JPG", "projects/wayfinding/ta-schools/images/ta-school-2.JPG", "projects/wayfinding/ta-schools/images/ta-school-3.JPG", "projects/wayfinding/ta-schools/images/ta-school-4.JPG", "projects/wayfinding/ta-schools/images/ta-school-5.JPG"]
+     },
+     "hazzazi" : {
+         "name" : "Hazzazi Piazza",
+         "logo" : "",
+         "location" : {
+             "latitude" : "21.488833",
+             "longitude" : "39.187028",
+             "url" : "https://goo.gl/maps/FpGssykEgRG2"
+         },
+         "description" : "Name:<br><b>Hazzazi Piazza</b><br> Location:<br><b>Al-Balad District, Jeddah</b><br>",
+         "images" : ["projects/wayfinding/hazzazi-piazza/images/hazzazi-1.jpg", "projects/wayfinding/hazzazi-piazza/images/hazzazi-2.jpg", "projects/wayfinding/hazzazi-piazza/images/hazzazi-3.jpg"]
+     }
+ }
