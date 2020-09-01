@@ -205,7 +205,7 @@
 
             h1+p {
                 font-family: _font(family-heading);
-                font-size: 0.8rem;
+                // font-size: 0.8rem;
                 font-weight: _font(weight-heading-extralight);
                 letter-spacing: _font(kerning-heading);
                 line-height: 2.5;
@@ -261,7 +261,7 @@
                     display: block;
                     height: _size(line-width);
                     position: absolute;
-                    top: 1rem;
+                    top: 1.45rem;
                 }
 
                 // Terminator.
@@ -272,7 +272,7 @@
                     display: block;
                     height: 0.5rem;
                     position: absolute;
-                    top: 0.75rem;
+                    top: 1.25rem;
                     width: 0.5rem;
                 }
 

@@ -215,7 +215,7 @@ h1 {
 }
 
 h2 {
-  font-size: 1.25rem;
+  font-size: 1.75rem;
   font-weight: 800;
   margin: 0 0 2rem 0;
 }
@@ -334,6 +334,16 @@ hr.major {
   hr.major {
     margin: 3rem 0;
   }
+}
+
+.content ul li {
+  font-size: 1.25rem;
+}
+.content h3 {
+  font-size: 1.05rem;
+}
+.content p {
+  font-size: 1.05rem;
 }
 
 /* Row */
@@ -2685,7 +2695,6 @@ ul.feature-icons li:nth-child(1), ul.feature-icons li:nth-child(2) {
 }
 #wrapper section > header h1 + p {
   font-family: "Raleway", Helvetica, sans-serif;
-  font-size: 0.8rem;
   letter-spacing: 0.175em;
   line-height: 2.5;
   text-transform: uppercase;
@@ -2727,7 +2736,7 @@ ul.feature-icons li:nth-child(1), ul.feature-icons li:nth-child(2) {
   display: block;
   height: 2px;
   position: absolute;
-  top: 1rem;
+  top: 1.45rem;
 }
 #wrapper > section > header h1:after,
 #wrapper > section > header h2:after {
@@ -2737,7 +2746,7 @@ ul.feature-icons li:nth-child(1), ul.feature-icons li:nth-child(2) {
   display: block;
   height: 0.5rem;
   position: absolute;
-  top: 0.75rem;
+  top: 1.25rem;
   width: 0.5rem;
 }
 #wrapper > section > header h1 {
